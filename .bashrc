@@ -1,4 +1,4 @@
-# Sourabh
+# Sourabh Marathe
 # .bashrc
 
 # Source global definitions
