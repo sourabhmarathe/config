@@ -1,3 +1,4 @@
+" Vim settings
 " Avoid trying to work with vim
 set nocompatible
 
