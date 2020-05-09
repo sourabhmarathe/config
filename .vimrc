@@ -88,9 +88,12 @@ filetype plugin indent on
 set backspace=indent,eol,start
 
 set scrolloff=5
-set tabstop=2
-set shiftwidth=2
-set expandtab
+set tabstop=4
+set nocopyindent
+set preserveindent
+set softtabstop=0
+set shiftwidth=4
+set noexpandtab
 set encoding=utf-8
 autocmd FileType c,cpp,java,tex,txt,sml,rb,html,xml,dot,py autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 " Don't expand tab in Makefiles
