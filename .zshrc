@@ -109,6 +109,11 @@ alias rsrun="cargo run"
 alias rstest="cargo test"
 alias rsclpy="cargo clippy"
 alias rsfmt="cargo fmt"
+alias lndk-test="cargo build; cargo test; cargo +1.22.0 test; cargo +1.34.2 test"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export GOPATH="$HOME/gocode"
+export PATH=$PATH:$GOPATH/bin
+
